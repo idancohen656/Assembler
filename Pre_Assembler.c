@@ -10,7 +10,7 @@ char *token; /* Pointer for tokenized string */
 size_t macro_body_size = 0;
 char temp_buf[81];
 
-void Kdam_Assembler(const char *inputFilePath)
+void Pre_Assembler(const char *inputFilePath)
 {
     FILE *inputFile;
     if (!(inputFile = fopen(inputFilePath, "r")))
